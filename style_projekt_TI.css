@@ -1,0 +1,16 @@
+html, body {
+    margin:10 px;
+    text-align: left;
+    margin: 0 0 0 10px;
+}
+
+a{
+    color: #369;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+    color: rgb(10, 38, 62)
+}
