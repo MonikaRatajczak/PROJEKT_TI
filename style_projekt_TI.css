@@ -123,3 +123,76 @@ footer {
     color: white;
     padding: 10px 0;
 }
+.opinie-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.opinia, .dodaj-opinie-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.gwiazdki {
+    font-size: 24px;
+    color: #FFD700; /* Kolor złotych gwiazdek */
+}
+
+/* Linia oddzielająca opinie */
+.opinia + .opinia {
+    border-top: 1px solid #ddd;
+}
+
+/* Styl dla labeli w sekcji opinii */
+.opinia label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styl dla przycisków w sekcji opinii */
+.opinia button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opinia button:hover {
+    background-color: #555;
+}
+
+/* Styl dla formularza opinii */
+.dodaj-opinie-section {
+    max-width: 400px;
+}
+
+.dodaj-opinie-section h2 {
+    margin-bottom: 15px;
+}
+
+label, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
